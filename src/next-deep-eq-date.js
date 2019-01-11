@@ -15,9 +15,12 @@
     if (isDate1 != isDate2) {
       return false;
     }
+
     if (isDate1 && isDate2) {
       return inDate1.getTime() === inDate1.getTime();
     }
+
+    return false;
   };
 
   if (typeof module !== 'undefined' && module.exports) {
