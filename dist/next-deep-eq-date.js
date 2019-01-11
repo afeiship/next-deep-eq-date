@@ -17,7 +17,7 @@
     }
 
     if (isDate1 && isDate2) {
-      return inDate1.getTime() === inDate1.getTime();
+      return inDate1.getTime() === inDate2.getTime();
     }
 
     return false;
