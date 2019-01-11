@@ -12,11 +12,9 @@
 
     var isDate1 = isDate(inDate1);
     var isDate2 = isDate(inDate2);
-
     if (isDate1 != isDate2) {
       return false;
     }
-
     if (isDate1 && isDate2) {
       return inDate1.getTime() === inDate1.getTime();
     }
